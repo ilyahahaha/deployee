@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deployee"
+version = "0.1.0"
+description = ""
+authors = ["Ilya Kuchmenko <42113015+ilyahahaha@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+loguru = "^0.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
